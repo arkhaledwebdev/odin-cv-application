@@ -1,0 +1,69 @@
+:root {
+  --text: #b8c1ec;
+  --title: #fffffe;
+  --background: #232946;
+  --primary: #b8c1ec;
+  --secondary: #eebbc3;
+  --surface: #fffffe;
+  --surface-text: #232946;
+}
+.icon {
+  width: 24px;
+  height: auto;
+}
+
+input {
+  background-color: var(--primary);
+}
+
+.iconLarge {
+  width: 36px;
+  height: auto;
+}
+
+.page-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45vw;
+}
+
+.section-item {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  background-color: var(--surface);
+  color: var(--surface-text);
+  padding: 16px;
+  border-radius: 12px;
+  margin: 16px;
+  width: 30vw;
+}
+
+.cv-page {
+  background-color: var(--surface);
+  color: var(--surface-text);
+  padding: 8px;
+  border-radius: 16px;
+  margin: 16px;
+}
+
+.data-item {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.separator {
+  border-top: 3px dashed var(--primary);
+  width: 45vw;
+  margin: 16px 0px;
+}
